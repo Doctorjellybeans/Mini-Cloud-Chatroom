@@ -1,13 +1,12 @@
 # Mini-Cloud-Chatroom
-Chatroom web en tiempo real diseñado como proyecto de aprendizaje en arquitectura cloud, redes y sistemas distribuidos.
+Web chatroom in reak time design as a personal project in cloud arquitecture, networks and distributed sistems.
 
-Este proyecto implementa un chatrooom web de tiempo real inspirado en Discord / WhatsApp, diseñado especidicamente como ejercicio pratico para aprender computación en la nube, redes de computadores y arquitectura de sistemas distribuidos.
+This project implements a web chatroom in real time inspired int Discord / WhatsApp, designed especifically as a practical way to learn cloud computing, computer networks and distributed sistems arquitectures.
 
-Incluye:
-  - frontend en
-  - backend en
-  - base de datos con
-
+This project includes:
+  - a frontend in
+  - a backend in
+  - a database in
 
 
 
