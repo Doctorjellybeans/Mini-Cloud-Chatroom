@@ -4,22 +4,33 @@ A real-time web chatroom designed as a hands-on learning project focused on clou
 
 ---
 
-## Project objective 
+## Table of Contents
+- Project Objective
+- Current Scope
+- Tech Stack
+- Architecture
+- Repository Structure
+- Running Locally
+- Roadmap
+- Useful Resources
+
+## Project Objective 
 
 The main goal of this project is to learn and apply core and advanced concepts related to:
+
  - Cloud computing
  - Computer Networks
  - Distributed Systems Architecture
  - Real-time comunication using WenSockets
  - Proffesional development and DevOps best practices
-
-So in coclussion yhis project is intended as a technical learning laboratory rather than a commercial product.
+ - 
+The focus is on understanding system design decisions and implementation trade-offs rather than delivering a production-ready product.
 
 ---
 
-## Current scope
+## Current Scope
 
-Initial local MVP
+**Initial local MVP**
   - Web-based chatroom accessible via browser
   - Join a global room by entering a username (no persistent authentication)
   - Backend implemented in Python using FastAPI
@@ -27,7 +38,7 @@ Initial local MVP
 
 ---
 
-## Tech stack
+## Tech Stack
 
 ### Backend
   - Python 3.12
@@ -44,8 +55,10 @@ Initial local MVP
   - Terraform
 
 ## Architecture
-
-TODO: add a diagram and update the current text version  
+**High-level system overview**
+> A system context diagram will be added to visually represent client,
+> backend, and infrastructure interactions.
+> TODO: Add repository structure overview (tree or diagram).
 WebClient -> WebSocket -> FastAPI (backend) -> PostgreSQL
 
 ## Repository Structure
@@ -83,12 +96,12 @@ TODO: propper roadmap
 Placeholder:
 - [ ] Foundation
 - [ ] Real-Time Messaging
-- [ ] Persistence
+- [ ] Message Persistence
+- [ ] User Identity
 - [ ] Frontend MVP
 - [ ] Containerization
-- [ ] Scalability
 - [ ] Cloud Deployment
-- [ ] Observability
+- [ ] Production Readiness (Lite)
 
 ## Useful resources
 
