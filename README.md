@@ -56,7 +56,7 @@ The focus is on understanding system design decisions and implementation trade-o
 
 ## Architecture
 **High-level system overview**
-[System-Context.png](https://postimg.cc/94gwQQfv)
+[![System-Context.png](https://i.postimg.cc/FRNyGfXs/System-Context.png)](https://postimg.cc/94gwQQfv)
 WebClient -> WebSocket -> FastAPI (backend) -> PostgreSQL
 
 ## Repository Structure
