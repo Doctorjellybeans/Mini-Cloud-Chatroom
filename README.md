@@ -1,4 +1,4 @@
-# Mini-Cloud-Chatroom
+<img width="860" height="471" alt="image" src="https://github.com/user-attachments/assets/3d25cdae-6c2e-4042-9884-97f231651f5e" /># Mini-Cloud-Chatroom
 
 A real-time web chatroom designed as a hands-on learning project focused on cloud computing, computer networks, and distributed systems architecture.
 
@@ -23,7 +23,7 @@ The main goal of this project is to learn and apply core and advanced concepts r
  - Distributed Systems Architecture
  - Real-time comunication using WenSockets
  - Proffesional development and DevOps best practices
- - 
+
 The focus is on understanding system design decisions and implementation trade-offs rather than delivering a production-ready product.
 
 ---
@@ -41,24 +41,22 @@ The focus is on understanding system design decisions and implementation trade-o
 ## Tech Stack
 
 ### Backend
-  - Python 3.12
-  - FastAPI
-  - Uvicorn
-  - WebSockets
+  - Python <= v3.12
+  - FastAPI <= v0.124.4
+  - Uvicorn  <= v0.38.0
+  - WebSockets <= v15.0.1 
 
 ### Database
-  - PostgreSQL
+  - PostgreSQL <= v16.11
 
 ### Tooling
-  - Git / GitHub
-  - Docker
-  - Terraform
+  - Git <= v2.43.0
+  - Docker <= v28.3.3
+  - Terraform <= v1.14.2
 
 ## Architecture
 **High-level system overview**
-> A system context diagram will be added to visually represent client,
-> backend, and infrastructure interactions.
-> TODO: Add repository structure overview (tree or diagram).
+[System-Context.png](https://postimg.cc/94gwQQfv)
 WebClient -> WebSocket -> FastAPI (backend) -> PostgreSQL
 
 ## Repository Structure
@@ -67,8 +65,8 @@ TODO: add diagram or add ACSII
 ## Running Locally
 
 ### Requierements
-  - Python3.12
-  - PostgreSQL
+  - Python
+  - PostgreSQL 
 
 ### Setup
 
