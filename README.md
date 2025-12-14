@@ -1,5 +1,3 @@
-<img width="860" height="471" alt="image" src="https://github.com/user-attachments/assets/3d25cdae-6c2e-4042-9884-97f231651f5e" /># Mini-Cloud-Chatroom
-
 A real-time web chatroom designed as a hands-on learning project focused on cloud computing, computer networks, and distributed systems architecture.
 
 ---
