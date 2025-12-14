@@ -59,7 +59,34 @@ The focus is on understanding system design decisions and implementation trade-o
 WebClient -> WebSocket -> FastAPI (backend) -> PostgreSQL
 
 ## Repository Structure
-TODO: add diagram or add ACSII
+``` text
+.
+├── backend
+│   ├── app
+│   │   ├── api
+│   │   │   └── chat.py
+│   │   ├── core
+│   │   │   └── config.py
+│   │   ├── db
+│   │   │   └── session.py
+│   │   ├── main.py
+│   │   ├── models
+│   │   │   └── message.py
+│   │   └── services
+│   │       └── chat_service.py
+│   └── requirements.txt
+├── docs
+│   └── architecture
+├── frontend
+│   └── README.md
+├── infra
+│   ├── docker
+│   │   └── Dockerfile
+│   └── terraform
+│       └── main.tf
+├── README.md
+└── System-Context.png
+```
 
 ## Running Locally
 
