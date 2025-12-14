@@ -81,7 +81,7 @@ TODO: add env var
 ## Roadmap
 TODO: propper roadmap
 Placeholder:
-- [x] Foundation
+- [ ] Foundation
 - [ ] Real-Time Messaging
 - [ ] Persistence
 - [ ] Frontend MVP
@@ -90,5 +90,8 @@ Placeholder:
 - [ ] Cloud Deployment
 - [ ] Observability
 
+## Useful resources
 
+Diagrams:
+- System Context Diagram guide: https://www.geeksforgeeks.org/system-design/context-diagrams/
 
